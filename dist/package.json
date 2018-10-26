@@ -1,0 +1,21 @@
+{
+  "name": "@dart2ts.packages/intl",
+  "version": "0.15.6-1",
+  "description": "port of intl package",
+  "main": "lib/index.html",
+  "flat": true,
+  "scripts": {
+    "build": "tsc",
+    "dist": "cd dist; npm publish"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@dart2ts.packages/html5": "^1.0.5",
+    "@dart2ts/dart": "^0.1.19",
+    "reflect-metadata": "^0.1.12"
+  },
+  "devDependencies": {
+    "typescript": "^3.0.3"
+  }
+}
